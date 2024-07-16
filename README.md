@@ -32,56 +32,12 @@ This project demonstrates several MapReduce jobs including:
 
 ## Upload the dataset to HDFS
 
-Ensure you have the dataset `trees.csv` in your local directory. Then, upload it to HDFS in FileZilla:
+Ensure you have the dataset `trees.csv` in your local directory. Then, upload it to HDFS in FileZilla
 
 ## Running the jobs
-Voici le contenu du fichier `README.md` en Markdown avec les sections bien formatées pour être copié directement dans votre fichier :
-
-```markdown
 # Hadoop MapReduce Examples
 
 This repository contains examples of MapReduce jobs implemented in Java for processing data with Apache Hadoop.
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Requirements](#requirements)
-- [Setup](#setup)
-- [Running the Jobs](#running-the-jobs)
-  - [Districts Containing Trees](#districts-containing-trees)
-  - [Existing Species](#existing-species)
-  - [Number of Trees by Kind](#number-of-trees-by-kind)
-  - [Maximum Height per Kind of Tree](#maximum-height-per-kind-of-tree)
-- [Unit Tests](#unit-tests)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Overview
-
-This project demonstrates several MapReduce jobs including:
-- Listing distinct districts that contain trees
-- Showing all existing species
-- Counting the number of trees by kind
-- Calculating the maximum height per kind of tree
-
-## Requirements
-
-- Java 8
-- Apache Hadoop 3.x
-- Maven 3.x
-- Git
-
-
-2. **Build the project using Maven:**
-
-   ```sh
-   mvn clean package -DskipTests
-   ```
-
-3. **Upload the dataset to HDFS:**
-
-   Ensure you have the dataset `trees.csv` in your local directory. Then, upload it using Filezilla
-   ```
 
 ## Running the Jobs
 
